@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="recyclerviewexample"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Recyclerviewexample"
+        tools:targetApi="31">
+        <activity
+            android:name=".Detay2"
+            android:exported="false"
+            android:label="@string/title_activity_detay2"
+            android:theme="@style/Theme.Recyclerviewexample" />
+        <activity
+            android:name=".Detay"
+            android:exported="false"
+            android:label="@string/title_activity_detay"
+            android:theme="@style/Theme.Recyclerviewexample" />
+        <activity
+            android:name=".Squat"
+            android:exported="false"
+            android:label="@string/title_activity_squat"
+            android:theme="@style/Theme.Recyclerviewexample" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@drawable/rounded_rectangle" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="recyclerviewexample"
+            android:theme="@style/Theme.Recyclerviewexample">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
